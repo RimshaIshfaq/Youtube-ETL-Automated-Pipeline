@@ -1,0 +1,46 @@
+[
+  {
+    "shows name": "Google Trend: Entertainment",
+    "cpm category": "Entertainment"
+  },
+  {
+    "shows name": "Google Trend: Crime",
+    "cpm category": "Crime"
+  },
+  {
+    "shows name": "Google Trend: Sports",
+    "cpm category": "Sports"
+  },
+  {
+    "shows name": "Google Trend: Political",
+    "cpm category": "Political"
+  },
+  {
+    "shows name": "Google Trend: Accident",
+    "cpm category": "Accident"
+  },
+  {
+    "shows name": "Google Trend: Environment",
+    "cpm category": "Environment"
+  },
+  {
+    "shows name": "Podcast: Entertainment",
+    "cpm category": "Entertainment"
+  },
+  {
+    "shows name": "Podcast: Crime",
+    "cpm category": "Crime"
+  },
+  {
+    "shows name": "Podcast: Political",
+    "cpm category": "Political"
+  },
+  {
+    "shows name": "Podcast: Accident",
+    "cpm category": "Accident"
+  },
+  {
+    "shows name": "Podcast: Environment",
+    "cpm category": "Environment"
+  }
+]
