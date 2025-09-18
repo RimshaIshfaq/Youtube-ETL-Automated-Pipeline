@@ -1,0 +1,32 @@
+[2025-09-18T05:36:40.412+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-09-18T05:36:40.484+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: read_dataset_event_from_classic.read_dataset_event_from_classic scheduled__2025-09-17T00:00:00+00:00 [queued]>
+[2025-09-18T05:36:40.506+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: read_dataset_event_from_classic.read_dataset_event_from_classic scheduled__2025-09-17T00:00:00+00:00 [queued]>
+[2025-09-18T05:36:40.508+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-09-18T05:36:40.539+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): read_dataset_event_from_classic> on 2025-09-17 00:00:00+00:00
+[2025-09-18T05:36:40.565+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'read_dataset_event_from_classic', 'read_dataset_event_from_classic', 'scheduled__2025-09-17T00:00:00+00:00', '--job-id', '42', '--raw', '--subdir', '/home/***/.local/lib/python3.12/site-packages/***/example_dags/example_inlet_event_extra.py', '--cfg-path', '/tmp/tmplc_oaoll']
+[2025-09-18T05:36:40.569+0000] {standard_task_runner.py:105} INFO - Job 42: Subtask read_dataset_event_from_classic
+[2025-09-18T05:36:40.561+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=372) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-09-18T05:36:40.572+0000] {standard_task_runner.py:72} INFO - Started process 378 to run task
+[2025-09-18T05:36:40.866+0000] {task_command.py:467} INFO - Running <TaskInstance: read_dataset_event_from_classic.read_dataset_event_from_classic scheduled__2025-09-17T00:00:00+00:00 [running]> on host 7f8c5cf1dc7b
+[2025-09-18T05:36:41.115+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='read_dataset_event_from_classic' AIRFLOW_CTX_TASK_ID='read_dataset_event_from_classic' AIRFLOW_CTX_EXECUTION_DATE='2025-09-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-09-17T00:00:00+00:00'
+[2025-09-18T05:36:41.145+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-09-18T05:36:41.148+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-09-18T05:36:41.150+0000] {logging_mixin.py:190} INFO - Current task name:read_dataset_event_from_classic state:running start_date:2025-09-18 05:36:40.488921+00:00
+[2025-09-18T05:36:41.152+0000] {logging_mixin.py:190} INFO - Dag name:read_dataset_event_from_classic and current dag run status:running
+[2025-09-18T05:36:41.153+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-09-18T05:36:41.155+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-09-18T05:36:41.157+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo \'{"hi": "bye"}\'']
+[2025-09-18T05:36:41.195+0000] {subprocess.py:86} INFO - Output:
+[2025-09-18T05:36:41.199+0000] {subprocess.py:93} INFO - {"hi": "bye"}
+[2025-09-18T05:36:41.201+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-09-18T05:36:41.315+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-09-18T05:36:41.317+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=read_dataset_event_from_classic, task_id=read_dataset_event_from_classic, run_id=scheduled__2025-09-17T00:00:00+00:00, execution_date=20250917T000000, start_date=20250918T053640, end_date=20250918T053641
+[2025-09-18T05:36:41.346+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-09-18T05:36:41.347+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-09-18T05:36:41.349+0000] {logging_mixin.py:190} INFO - Dag name:read_dataset_event_from_classic queued_at:2025-09-18 05:36:36.102003+00:00
+[2025-09-18T05:36:41.352+0000] {logging_mixin.py:190} INFO - Task hostname:7f8c5cf1dc7b operator:BashOperator
+[2025-09-18T05:36:41.395+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-09-18T05:36:41.427+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-18T05:36:41.438+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

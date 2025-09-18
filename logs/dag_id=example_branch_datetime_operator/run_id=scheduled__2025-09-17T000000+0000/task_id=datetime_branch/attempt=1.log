@@ -1,0 +1,30 @@
+[2025-09-18T05:36:11.715+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-09-18T05:36:11.739+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_branch_datetime_operator.datetime_branch scheduled__2025-09-17T00:00:00+00:00 [queued]>
+[2025-09-18T05:36:11.748+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_branch_datetime_operator.datetime_branch scheduled__2025-09-17T00:00:00+00:00 [queued]>
+[2025-09-18T05:36:11.749+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-09-18T05:36:11.769+0000] {taskinstance.py:2888} INFO - Executing <Task(BranchDateTimeOperator): datetime_branch> on 2025-09-17 00:00:00+00:00
+[2025-09-18T05:36:11.781+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=284) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-09-18T05:36:11.784+0000] {standard_task_runner.py:72} INFO - Started process 288 to run task
+[2025-09-18T05:36:11.784+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'example_branch_datetime_operator', 'datetime_branch', 'scheduled__2025-09-17T00:00:00+00:00', '--job-id', '29', '--raw', '--subdir', '/home/***/.local/lib/python3.12/site-packages/***/example_dags/example_branch_datetime_operator.py', '--cfg-path', '/tmp/tmpnte8py8n']
+[2025-09-18T05:36:11.786+0000] {standard_task_runner.py:105} INFO - Job 29: Subtask datetime_branch
+[2025-09-18T05:36:11.870+0000] {task_command.py:467} INFO - Running <TaskInstance: example_branch_datetime_operator.datetime_branch scheduled__2025-09-17T00:00:00+00:00 [running]> on host 7f8c5cf1dc7b
+[2025-09-18T05:36:11.994+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_branch_datetime_operator' AIRFLOW_CTX_TASK_ID='datetime_branch' AIRFLOW_CTX_EXECUTION_DATE='2025-09-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-09-17T00:00:00+00:00'
+[2025-09-18T05:36:11.996+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-09-18T05:36:11.997+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-09-18T05:36:11.997+0000] {logging_mixin.py:190} INFO - Current task name:datetime_branch state:running start_date:2025-09-18 05:36:11.739742+00:00
+[2025-09-18T05:36:11.998+0000] {logging_mixin.py:190} INFO - Dag name:example_branch_datetime_operator and current dag run status:running
+[2025-09-18T05:36:11.998+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-09-18T05:36:11.999+0000] {branch.py:38} INFO - Branch into ['date_outside_range']
+[2025-09-18T05:36:12.001+0000] {skipmixin.py:230} INFO - Following branch ('date_outside_range',)
+[2025-09-18T05:36:12.020+0000] {skipmixin.py:278} INFO - Skipping tasks [('date_in_range', -1)]
+[2025-09-18T05:36:12.064+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-09-18T05:36:12.065+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=example_branch_datetime_operator, task_id=datetime_branch, run_id=scheduled__2025-09-17T00:00:00+00:00, execution_date=20250917T000000, start_date=20250918T053611, end_date=20250918T053612
+[2025-09-18T05:36:12.081+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-09-18T05:36:12.082+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-09-18T05:36:12.086+0000] {logging_mixin.py:190} INFO - Dag name:example_branch_datetime_operator queued_at:2025-09-18 05:36:09.828743+00:00
+[2025-09-18T05:36:12.086+0000] {logging_mixin.py:190} INFO - Task hostname:7f8c5cf1dc7b operator:BranchDateTimeOperator
+[2025-09-18T05:36:12.121+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-09-18T05:36:12.162+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-18T05:36:12.167+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

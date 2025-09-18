@@ -20,7 +20,7 @@ SHEETS_SCOPES = [
 ]
 
 SERVICE_ACCOUNT_FILE = r"D:/News-team-individual dashboards/YTauthentication/google_sheet_api.json"
-SHEET_ID = "1gxQw9da-UNAu15Vfv_qXqq1GOnm7GP48CWURlSb3B40"
+SHEET_ID = "YOUR SHEET ID"
 SHEET_NAME = "Dataset"
 
 # --- AUTHENTICATION ---

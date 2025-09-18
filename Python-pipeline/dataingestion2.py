@@ -9,7 +9,7 @@ YOUTUBE_API_KEY_FILE = r"D:/News-team-individual dashboards/YTauthentication/you
 GOOGLE_SHEET_CREDS_FILE = r"D:/News-team-individual dashboards/YTauthentication/google_sheet_api.json"
 CHANNELS_JSON_FILE = r"D:/News-team-individual dashboards/Documents/channel.json"
 EMPLOYEE_JSON_FILE = r"D:/News-team-individual dashboards/Documents/resource_name.json"  # <-- Add your JSON file path
-GOOGLE_SHEET_NAME = "Individual Dashboard Rimsha - News team"
+GOOGLE_SHEET_NAME = "YOUR SHEET NAME"
 WORKSHEET_NAME = "Dataset"
 
 # --- Google Sheets Authentication ---

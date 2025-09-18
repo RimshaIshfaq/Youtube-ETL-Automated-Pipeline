@@ -1,1 +1,8 @@
-{"installed":{"client_id":"868353665347-ila313r2b7eji7pkbcsb7lo1rccncnd1.apps.googleusercontent.com","project_id":"yt-api-revenue-rimsha","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"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","redirect_uris":["http://localhost"]}}
+{"installed":
+{"client_id":"ADD YOUR CLIENT ID HERE",
+"project_id":"YOUR GCP PROJECT ID",
+"auth_uri":"YOUR AUTH URI",
+"token_uri":"YOUR TOKEN URI",
+"auth_provider_x509_cert_url":"ADD YOUR CERT HERE",
+"client_secret":"YOUR CLIENT SECRET",
+"redirect_uris":["http://localhost"]}}

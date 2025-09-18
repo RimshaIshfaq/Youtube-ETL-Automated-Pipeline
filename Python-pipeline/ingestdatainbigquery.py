@@ -6,12 +6,12 @@ import pandas as pd
 # --- CONFIGURATION ---
 SERVICE_ACCOUNT_FILE = r"D:/News-team-individual dashboards/YTauthentication/google_sheet_api.json"
 
-SHEET_ID = "1gxQw9da-UNAu15Vfv_qXqq1GOnm7GP48CWURlSb3B40"
+SHEET_ID = "YOUR GOOGLE SHEET ID"
 SHEET_NAME = "Dataset"
 
-BQ_PROJECT = "yt-api-revenue-rimsha"          # GCP Project ID
-BQ_DATASET = "Resource_Dashboards_News"       # BigQuery Dataset
-BQ_TABLE   = "Analytics_api_metrics"          # BigQuery Table
+BQ_PROJECT= "YOUR BIG QUERY PORJECT"          # GCP Project ID
+BQ_DATASET = "YOUR BIG QUERY DATASET"       # BigQuery Dataset
+BQ_TABLE   = "YOUR BIG QUERY PROJECT"          # BigQuery Table
 
 # --- AUTHENTICATION ---
 # Google Sheets

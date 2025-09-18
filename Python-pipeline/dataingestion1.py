@@ -11,7 +11,7 @@ import json
 YOUTUBE_API_KEY_FILE = r"D:/News-team-individual dashboards/YTauthentication/youtube_api_key.json"
 GOOGLE_SHEET_CREDS_FILE = r"D:/News-team-individual dashboards/YTauthentication/google_sheet_api.json"
 CHANNELS_JSON_FILE = r"D:/News-team-individual dashboards/Documents/channel.json"
-GOOGLE_SHEET_NAME = "Individual Dashboard Rimsha - News team"
+GOOGLE_SHEET_NAME = "YOUR SHEET NAME"
 WORKSHEET_NAME = "Dataset"
 
 # --- AUTHENTICATION ---

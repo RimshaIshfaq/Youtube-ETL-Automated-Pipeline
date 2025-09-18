@@ -1,13 +1,11 @@
 {
   "type": "service_account",
-  "project_id": "yt-api-revenue-rimsha",
-  "private_key_id": "2e9196773d01929fc0fe1941e263139dc1d21563",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCwB1ecti8YzzLa\ndsi5qPK6+ymdd6UVxv9Rfk6x9PMet0FoZ66fzS7tbRQNAJ+Hzsm1LRNnTCFYYsc4\nQgW22qUJKafs6QPbD10gnXmOI3/RY6unAn8GSCvxoA0D3oUPR1ftdRRSNJQQLENW\nzo/tLAta7oP5XBPd9yEy9YxlIMrkmngI0n012iItDQI55G0F0LLVDrgdg8PbS4t6\nk0scxXEEXV+ludjtc34WKAJpG0KuCxdFFs83G03tHskEiZfLQ6vw0dBg8tcAWUcO\n3Lnwob8VP0UxVXmRA4DuymW1vqWLddt0cwbqJstgCzvhKXi6EW/YfwpCk20ZIHAS\nMOiZlfZTAgMBAAECggEABtPiFBQE86Nlx49/7aOd9p6zWIZBgvy6/oA1sTVdEL3u\n7YvH/C7LOS5X7sEtbukYbcyXyhPr3y/Fpmr5KcSFTjutZcUL/z0zUYaKJnc+B/Mj\nv1CbeLTn73FTz+ibpKIRyQYXibC8ZXwyCHXuozZoIljKCawGoT9qrD1V+r4w4HkE\n2i8bEIaDT1ZfD4GeqM0v+VkYHg+9C/wWIhMvzufZF2Egt2OYRsGp7k3A+aDSpbPn\nl4dBzshOOTD4YQffO7TR6+H/m6DyhoAOLQkStoIDXI3sRTf+EPtfP7wKQjbQsKb5\n5wIoNfN8UrXjR9CoV79t0TNyaKF2j4weRfjUXlfIkQKBgQDijcJ7EDZKhbA/3EYI\npX/7aEG4Fjlc7JvpijPX9o9DTcYhCUmBEoaitjAtkYsRRD6OJnEqBH4Ol+8UQtpE\ni/ogPQdZoO6EjMHGOZiS1PBmRMEKuovKm3TBg1DAVCBsuVHUHmEvVvuRhNif7cQ7\najfs3LgbVrpu8KZ66IicDxbdVQKBgQDG6G+OKx7snbn5kOlNX1LannFo2ZVrMKLu\ndfr0cvxfVuViaT9ux/+E+HjPd06A63SWeGSnnFiqIk8rl5BHzxfVWZCB3ZGzY2uG\nxAUihI63bEKGr4+L0I23p5GdgCALWrwKwwemA/4UxqHKtZEh4ORuk7gRWwrS9Aow\nkkhj/RZFBwKBgENADWD2eQc6FA2A15Etf4Yjdo6smi6JVebHTYhn+jLiXVPlK9qS\no0CdkEOWlo9zkJYltyXf24N9ekyrY5tBaegz9YCXkvXpyoOLCU1cxFe3RQ5oPaLQ\n7qGa11egIVfk0vOCaRriWR7jLmKa88snRp6bDlOfNQxFh0WozRR2LjVZAoGAGQJA\nhG+Hg9iQ+X/u1XuWv0YMnFI/JysGUVUkKHgMozAZxzXUc+lRhzZ2eh9WD3+LOSAK\nB8jwnPOTYLe9vEmdhYWtVaa2Gwf1DQy4WI6yIv3Jn4WTVtDyAJVhCZyCausNmYzL\n+WOnHpWa4hHSHaBZGE4aZpQ72Co23cSGtYussSECgYEAnxoVrLPp32eUKEPdUHan\n5O5ptcS1s6cmmQBeJcRYpCHbDaj+PhE5vn5RO8Sowtrdlz+Iyhtfy5laUYeBtsk9\nzqccJUH8m35t1DyDsFl7+8GGdgKqXdLcK5gEGGck51JDtWJEEj4dG8prd3Ar44Bt\nbmZGLQuFYvWsYZ/hTz8WMJc=\n-----END PRIVATE KEY-----\n",
-  "client_email": "api-analytics@yt-api-revenue-rimsha.iam.gserviceaccount.com",
-  "client_id": "104837439856969617105",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
+  "project_id": "YOUR PROJECT ID",
+  "private_key_id": "YOUR PRIVATE KEY ID",
+  "private_key": "-----BEGIN PRIVATE KEY-----",
+  "auth_uri": "AUTH URI",
+  "token_uri": "TOKEN URI",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/api-analytics%40yt-api-revenue-rimsha.iam.gserviceaccount.com",
+  "client_x509_cert_url": "CERT URL",
   "universe_domain": "googleapis.com"
 }
