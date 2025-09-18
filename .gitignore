@@ -1,0 +1,15 @@
+# Ignore Airflow logs
+logs/
+logs/*
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+*.venv
+
+# Ignore system files
+.DS_Store
+Thumbs.db
